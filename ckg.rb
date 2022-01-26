@@ -1,4 +1,4 @@
-class SshList < Formula
+class Ckg < Formula
   desc "_"
   homepage "_"
   url "https://github.com/Tchoupinax/ssh-list/archive/refs/tags/v0.0.17.tar.gz"
