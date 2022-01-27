@@ -1,8 +1,8 @@
 class Ckg < Formula
   desc "_"
   homepage "_"
-  url "https://github.com/Tchoupinax/check-git/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "2f9d060318dcd3b466b9086f71b53a2f1affc5f01c2c6da39d074c8a94efc9fc"
+  url "https://github.com/Tchoupinax/check-git/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "b9df59eb18a048b95c259ee0a1845c9a51a0e0f109b310adb9da16a7784723ca"
   license "MIT"
 
   depends_on "go" => :build
