@@ -1,8 +1,8 @@
 class Gb < Formula
   desc "Tools to easily switch and view your git branches"
   homepage "https://github.com/Tchoupinax/git-branch"
-  url "https://github.com/Tchoupinax/git-branch/archive/refs/tags/v0.0.11.tar.gz"
-  sha256 "3b1a1106156c92ab4ef8dd29916e3e7bff6b2ff916b6dc54893738fe913eefe0"
+  url "https://github.com/Tchoupinax/git-branch/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "442dbe67d2abdcc03dac1cdc5885f1f97ec4a1060e7845592ecd410db35e6882"
   license "MIT"
 
   depends_on "go" => :build
