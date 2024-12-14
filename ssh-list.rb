@@ -1,8 +1,8 @@
 class SshList < Formula
   desc "_"
   homepage "_"
-  url "https://github.com/Tchoupinax/ssh-list/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "abe8b945c3aca8a4ea28e41b310646239b8a98968c61f2a89648a05165f3a0ca"
+  url "https://github.com/Tchoupinax/ssh-list/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "47bb1ed55a500e2752402f69b9ae0b11f76e9c5dd3d3150627214a37457b1133"
   license "MIT"
 
   depends_on "go" => :build
