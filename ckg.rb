@@ -20,8 +20,8 @@ class Ckg < Formula
 
     ldflags = %W[
       -s -w
-      -X ssh-list/cmd.version=#{latest_version}
-      -X ssh-list/cmd.buildDate=#{build_date}
+      -X main.version=#{latest_version}
+      -X main.buildDate=#{build_date}
     ]
 
     system "go", "build", "-mod=readonly", *std_go_args(ldflags:)
