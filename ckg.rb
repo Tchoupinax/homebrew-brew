@@ -8,7 +8,23 @@ class Ckg < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args
+    require "net/http"
+    require 'date'
+
+    uri = URI("https://api.github.com/repos/Tchoupinax/check-git/releases/latest")
+    resp = Net::HTTP.get(uri)
+    resp_json = JSON.parse(resp)
+    
+    latest_version = resp_json["tag_name"]
+    build_date = Date.parse(resp_json["published_at"]).strftime('%Y-%m-%d')
+
+    ldflags = %W[
+      -s -w
+      -X ssh-list/cmd.version=#{latest_version}
+      -X ssh-list/cmd.buildDate=#{build_date}
+    ]
+
+    system "go", "build", "-mod=readonly", *std_go_args(ldflags:)
   end
 
   test do
