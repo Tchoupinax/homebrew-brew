@@ -1,8 +1,8 @@
 class KubernetesLabelsMigrator < Formula
   desc "Your favorite tool to migrate labels on your deployments without any downtime."
   homepage "https://github.com/Tchoupinax/k8s-labels-migrator"
-  url "https://github.com/Tchoupinax/k8s-labels-migrator/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "da875cf17b14d13cd10815147abedf75cd032010467b56e53484946bf17f2f97"
+  url "https://github.com/Tchoupinax/k8s-labels-migrator/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "3bb51133e72e6b2857d26d33f583b356d747f982cc19a267b83802cfefdee521"
   license "GPL-3.0"
 
   depends_on "go" => :build
