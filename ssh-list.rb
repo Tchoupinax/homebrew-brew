@@ -1,8 +1,8 @@
 class SshList < Formula
   desc "Cross platform tools to display your registered ssh connections "
   homepage "https://github.com/Tchoupinax/ssh-list"
-  url "https://github.com/Tchoupinax/ssh-list/archive/refs/tags/v0.5.4.tar.gz"
-  sha256 "1b1746270b6563177088acc72a8a0d23dde8c0c9554be3d3fc3b3aa7ca100096"
+  url "https://github.com/Tchoupinax/ssh-list/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "a486b190ec04c1146322eb6d4ffb6aafb27900f75c53f37916f7f83a1d122b5b"
   license "MIT"
 
   depends_on "go" => :build
