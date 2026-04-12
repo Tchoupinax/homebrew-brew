@@ -1,8 +1,8 @@
 class Pjf < Formula
   desc "A CLI that guarantees harmony across all your projects and package.json files."
   homepage "https://github.com/Tchoupinax/package-json-formatter"
-  url "https://github.com/Tchoupinax/package-json-formatter/archive/refs/tags/v0.0.4.tar.gz"
-  sha256 "a5968e0e6b3f36c4d1da1c759a4a0e4d3766736cda1297994b7e4ff08ada1b4b"
+  url "https://github.com/Tchoupinax/package-json-formatter/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "fec488c15d9f810be1d15f7a1160d8bc1236a30fac601e7615accb6c86c3159d"
   license "MIT"
 
   depends_on "go" => :build
